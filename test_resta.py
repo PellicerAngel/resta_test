@@ -27,9 +27,9 @@ def test_suma_excepcion_sumando1():
 
 def test_suma_excepcion_sumando2():
    with pytest.raises(TypeError):
-       resta.resta_enteros(5.0,'a') == 0
+       resta.resta_enteros(5.0,'a') == 7
 
 
 def test_suma_excepcion_sumandos():
    with pytest.raises(TypeError):
-       resta.resta_enteros(True,'a') == 0
+       resta.resta_enteros(True,'a') == 5
