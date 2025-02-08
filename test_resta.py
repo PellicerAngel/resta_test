@@ -13,7 +13,7 @@ def test_suma_positivos():
 
 
 def test_suma_positivos_negativos():
-  assert resta.resta_enteros(-5,5) == -100
+  assert resta.resta_enteros(-5,5) == -10
 
 
 def test_suma_nagativo():
@@ -27,7 +27,7 @@ def test_suma_excepcion_sumando1():
 
 def test_suma_excepcion_sumando2():
    with pytest.raises(TypeError):
-       resta.resta_enteros(5.0,'a') == 7
+       resta.resta_enteros(5.0,'a') == 0
 
 
 def test_suma_excepcion_sumandos():
