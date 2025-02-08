@@ -13,7 +13,7 @@ def test_suma_positivos():
 
 
 def test_suma_positivos_negativos():
-  assert resta.resta_enteros(-5,5) == -10
+  assert resta.resta_enteros(-5,5) == -100
 
 
 def test_suma_nagativo():
